@@ -1,0 +1,62 @@
+h3, h4{
+  color: #540070;
+}
+.main-banner img{
+  width: 100%;
+  height: 620px;
+  position: relative;
+}
+
+.header-content{
+  position: absolute;
+  width: 98%;
+  top: 20px;
+}
+
+h1.logo{
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  width: 172px;
+  height: 71px;
+  text-indent: -1000px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+  margin-left: 5px;
+
+}
+
+header nav h2{
+  text-indent: -100000px;
+  height: 0;
+  margin: 0;
+}
+
+header nav li{
+  float: left;
+  list-style-type: none;
+  margin: 10px 20px;
+
+}
+
+header nav li a{
+  text-decoration: none !important;
+  color: #ac00d7;
+  font-size: 20px;
+}
+
+.header-title{
+  clear: both;
+  margin-top: 250px;
+  text-align: center;
+  color: #ac00d7;
+}
+
+.header-btn{
+  margin: 0 auto;
+}
