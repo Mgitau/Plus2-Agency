@@ -18,6 +18,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Custom -->
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -31,10 +32,10 @@
           <nav>
             <h2>Main Navigation</h2>
             <ul>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#">WORK</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
             </ul>
           </nav>
 
@@ -48,62 +49,73 @@
 
     <!--Start Services-->
     <div class="container">
-      <h3 class="text-center">SERVICES</h3>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="img/Design.png" alt="Design"/>
-            <h4 class="text-center">DESIGN</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit
-              esse cillum dolore eu fugiat nulla pariatur. Excepteur
-              sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
+      <div class="service-section">
+        <h3 class="text-center">SERVICES</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="services">
+              <img src="img/Design.png" alt="Design"/>
+            </div>
+              <h4 class="text-center">DESIGN</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
 
-          <div class="col-md-4">
-            <img src="img/Develop.png" alt="launch"/>
-            <h4 class="text-center">DEVELOP</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit
-              esse cillum dolore eu fugiat nulla pariatur. Excepteur
-              sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
 
-          <div class="col-md-4">
-            <img src="img/Launch.png" alt="Launch"/>
-            <h4 class="text-center">LAUNCH</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit
-              esse cillum dolore eu fugiat nulla pariatur. Excepteur
-              sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          </div>
-        </div><!-- end container-->
-        <!-- end services -->
 
+
+            <div class="col-md-4">
+              <div class="services">
+                <img src="img/Develop.png" alt="launch"/>
+              </div>
+
+              <h4 class="text-center">DEVELOP</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+
+            <div class="col-md-4">
+              <div class="services">
+              <img src="img/Launch.png" alt="Launch"/>
+            </div>
+              <h4 class="text-center">LAUNCH</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            </div>
+          </div><!-- end container-->
+        </div>
+                  <!-- end services -->
 
         <!-- map section-->
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <img src="img/map.png" alt="map"/>
+              <img class="map" src="img/map.png" alt="map"/>
             </div>
           </div>
         </div>
@@ -111,10 +123,11 @@
 
 
 
+
     <!-- end homepage content -->
 
     <footer>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-md-4">
             <h1 class="logo">+2 Agency</h1>
@@ -131,12 +144,13 @@
             <p>
               Nairobi, kenya
             </p>
-            <ul class="social_media">
+            <ul class="social-media">
               <li class="twitter"><a href="#">twitter</a></li>
               <li class="facebook"><a href="#">facebook</a></li>
               <li class="github"><a href="#">github</a></li>
               <li class="behance"><a href="#">behance</a></li>
             </ul>
+
           </div>
         </div>
       </div>
