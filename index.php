@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Plus2 Agency</title>
+    <!-- favicon -->
+    <link rel="Shortcut Icon" href="img/favicon.ico">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +23,7 @@
     <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
   </head>
+
   <body>
     <header>
       <div class="container-fluid">
@@ -68,9 +71,6 @@
                 officia deserunt mollit anim id est laborum.
               </p>
             </div>
-
-
-
 
             <div class="col-md-4">
               <div class="services">
@@ -120,10 +120,6 @@
           </div>
         </div>
 
-
-
-
-
     <!-- end homepage content -->
 
     <footer>
@@ -145,10 +141,10 @@
               Nairobi, kenya
             </p>
             <ul class="social-media">
-              <li class="twitter"><a href="#">twitter</a></li>
-              <li class="facebook"><a href="#">facebook</a></li>
-              <li class="github"><a href="#">github</a></li>
-              <li class="behance"><a href="#">behance</a></li>
+              <a href="https://twitter.com/" target="_blank"><li class="twitter">twitter</li></a>
+              <a href="https://www.facebook.com/Plus2Agency/" target="_blank"><li class="facebook">facebook</li></a>
+              <a href="https://twitter.com/Mgitau" target="_blank"><li class="github">github</li></a>
+              <a href="https://www.behance.net/mgitau" target="_blank"><li class="behance">behance</li></a>
             </ul>
 
           </div>

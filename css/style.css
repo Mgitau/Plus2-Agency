@@ -92,12 +92,49 @@ header nav li a{
   margin: 0 auto;
 }
 
+/*footer{
+  margin: 0 auto;
+}*/
+
 .social-media{
-  left: 0px;
+  position: absolute;
+  left: -24px;t;
 }
 
 .social-media li{
   float: left;
   list-style-type: none;
   margin-right: 5px;
+}
+
+.twitter{
+  background-image: url(../img/twitter.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  text-indent: -10000px;
+}
+
+.facebook{
+  background-image: url(../img/facebook.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  text-indent: -10000px;
+}
+
+.github{
+  background-image: url(../img/github.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  text-indent: -10000px;
+}
+
+.behance{
+  background-image: url(../img/behance.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  text-indent: -10000px;
 }
